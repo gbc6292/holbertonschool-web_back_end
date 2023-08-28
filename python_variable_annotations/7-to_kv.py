@@ -3,9 +3,9 @@
 int OR float v as arguments and returns a tuple. The first
 element of the tuple is the string k"""
 
-from typing import List, Union
+from typing import Tuple, Union
 
 
-def to_kv(k: str, v: Union[int, float]) -> tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """Return a tuple"""
     return tuple([k, v*v])
