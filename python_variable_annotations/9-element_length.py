@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""function’ that return values with the appropriate types"""
+"""function that return values with the appropriate types"""
 
 from typing import Sequence, List, Tuple, Iterable
 
