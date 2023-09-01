@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
-import asyncio
+
 """Function code is nearly identical
 to wait_n except task_wait_random is
 being called."""
+
+
+import asyncio
+
 # Import the wait_random function from 0-basic_async_syntax
 wait_random = __import__('0-basic_async_syntax').wait_random
 
