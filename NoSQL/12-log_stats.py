@@ -21,8 +21,8 @@ def get_nginx_logs_statistics():
         method_count = collection.count_documents({"method": method})
         method_counts[method] = method_count
 
-    status_logs = collection.count_documents({"method": "GET", "path":
-                                              "/status"})
+    status_logs = collection.count_documents(
+        {"method": "GET", "path": "/status"})
 
     print(f"{total_logs} logs")
     print("Methods:")
@@ -32,5 +32,6 @@ def get_nginx_logs_statistics():
 
     client.close()
 
-    if __name__ == "__main__":
-        get_nginx_logs_statistics()
+
+if __name__ == "__main__":
+    get_nginx_logs_statistics()
