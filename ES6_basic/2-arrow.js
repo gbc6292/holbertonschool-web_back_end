@@ -1,8 +1,9 @@
-export default function appendToEachArrayValue(array, appendString) {
-    for (const idx of array) {
-        const value = array[idx];
-        array[idx] = appendString + value;
-    }
+export default function getNeighborhoodsList() {
+    this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
-    return array;
+    const self = this;
+    this.addNeighborhood = (newNeighborhood) => {
+        self.sanFranciscoNeighborhoods.push(newNeighborhood);
+        return self.sanFranciscoNeighborhoods;
+    };
 }
