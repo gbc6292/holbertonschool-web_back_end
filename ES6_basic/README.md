@@ -1,1 +1,1 @@
-# ES6 Basics
+We are learning from nodejs the backend of js
