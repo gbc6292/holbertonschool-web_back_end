@@ -1,9 +1,10 @@
-/* enlist-disable */
+/* eslint-disable */
 export default function getStudentsByLocation(students, city) {
     if (!Array.isArray(students)) {
-        return [];
+      return [];
     }
-
+  
     const filter = students.filter((filteredObj) => filteredObj.location === city);
     return filter;
-}
+  }
+  

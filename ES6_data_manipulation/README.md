@@ -1,1 +1,1 @@
-# ES6_data_manipulation
+This project is about data manipulation
